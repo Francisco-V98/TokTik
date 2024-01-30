@@ -1,6 +1,6 @@
 import 'package:toktik/domain/entities/video_post.dart';
 
-abstract class VIdeoPostRepository {
+abstract class VideoPostRepository {
 
   Future<List<VideoPost>> getFavoriteVideoByPage(int userID);
 
